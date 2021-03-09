@@ -1,0 +1,45 @@
+.comp-switch {
+  display: block;
+}
+
+.switch-wrapper {
+  background-color: #007fff;
+  width: 45px;
+  height: 20px;
+  border-radius: 11px;
+  padding: 1px;
+  display: inline-flex;
+}
+
+.switch-wrapper-unchecked {
+  background-color: #d3d3d3;
+}
+
+.switch-wrapper-disabled {
+  background-color: #afafaf;
+}
+
+.switch-toggle {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  left: 25px;
+  transition: transform 500ms;
+}
+
+.switch-toggle-unchecked {
+  transform: translateX(-25px);
+}
+
+.switch-toggle-disabled {
+  background-color: #878787;
+}
+
+.switch-input {
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
